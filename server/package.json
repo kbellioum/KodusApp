@@ -11,10 +11,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
     "cors": "^2.8.4",
     "express": "^4.16.2",
-    "morgan": "^1.9.0"
+    "express-session": "^1.15.6",
+    "express-sessions": "^1.0.6",
+    "joi": "^13.0.1",
+    "mongoose": "^4.12.4",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^4.17.1",
+    "sqlite3": "^3.1.13"
   },
   "devDependencies": {
     "eslint-config-standard": "^10.2.1",
